@@ -5,7 +5,7 @@
 <form action = "add" method ="post">
     {% csrf_token %}
     Name:<br><input type="text" name="name"/><br>
-    id:<br><input type="password" name="id"/><br>
+    id:<br><input type="number" name="id"/><br>
     description:<br><textarea name="description" cols="40" rows="5"></textarea><br>
     ticker:<br><input type="text" name="ticker"/><br>
     start_date:<br><input type="date" name="start_date"/><br><br>
