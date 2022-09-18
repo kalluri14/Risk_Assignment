@@ -9,6 +9,8 @@ Till here we have imported  our csv files into our sqlite databse using sqlite e
 
 The two files that is equities.csv and daily_returns csv are added into our dbsqlite3 databse under the names finance_equities and finance_daily_returns.
 
+Using templates (HTML files ) we will make an interface for the user to enter his/her details. it is a basic interface for the customer to enter his name , id, description  and so on. we have an add button through which those details can be seen in the next page.
+
 
 
 
