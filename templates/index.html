@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<form action = "add" method ="post">
+    {% csrf_token %}
+    Name:<br><input type="text" name="name"/><br>
+    id:<br><input type="password" name="id"/><br>
+    description:<br><textarea name="description" cols="40" rows="5"></textarea><br>
+    ticker:<br><input type="text" name="ticker"/><br>
+    start_date:<br><input type="date" name="start_date"/><br><br>
+
+    <input type="submit" value="Add" style="height:25px; width:50px"/>
+</form>
+
+
+{% endblock %}
