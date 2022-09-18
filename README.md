@@ -7,7 +7,7 @@ then we make migrations so that it gets connected to our database and then with 
 
 Till here we have imported  our csv files into our sqlite databse using sqlite exe which helps us work from command line itself.
 
-The two files that is equities.csv and daily_returns csv are added into our dbsqlite3 databse under the names finance_equities and finance_daily_returns.
+The two files that is equities.csv and daily_returns csv are added into our dbsqlite3 databse under the names finance_equities and finance_daily_returns.we have our primary key id in our equities table and , equity_ id as a foreign key in our daily_ returns table
 
 Using templates (HTML files ) we will make an interface for the user to enter his/her details. it is a basic interface for the customer to enter his name , id, description  and so on. we have an add button through which those details can be seen in the next page.
 
